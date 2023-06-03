@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(0, 68, 45);
+  position: relative;
+}
+
+img {
+  max-width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.error {
+  display: none;
+  color: red;
+  margin-top: 20px;
+}
+.cat-info {
+  display: inline-flex;
+}
+.cat-image {
+  width: 500px;
+  margin-right: 30px;
+}
+.cat-details {
+  padding-top: 20px;
+  font-size: 28px;
+}
+
+.cat-description {
+  max-width: 600px;
+  font-size: 28px;
+}
+
+.cat-container {
+  display: inline-flex;
+}
+.breed-select {
+  width: 300px;
+  border: 2px solid hsl(234, 69%, 28%);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.cat-title {
+  margin: 0;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.74);
+}
+.cat-temperament-title {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.74);
+}
+.cat-temperament {
+  font-size: 18px;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 3px solid #fff;
+  border-right: 3px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
